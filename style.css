@@ -698,6 +698,7 @@
         max-height: 500px;
         width: 70vw;
         height: 70vh;
+        bottom: -25px;
     }
 
     .wheel__animation {
@@ -734,19 +735,19 @@
         width: 82vw;
         height: 83vh;
         right: -74%;
-        top: 150px;
+        top: 108px;
         left: unset;
         transform: unset;
     }
 
     .dog2 {
         position: absolute;
-        max-width: 370px;
+        max-width: 300px;
         max-height: 356px;
         width: 70vw;
         height: 70vh;
         left: -66%;
-        bottom: -12%;
+        bottom: -6%;
         transform: unset;
         background-image: url("./assets/dog2.png");
         background-position: center;
