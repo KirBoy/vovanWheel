@@ -649,7 +649,7 @@
         width: 310px;
         height: 263px;
         transform: rotate(18deg);
-        right: -300px;
+        right: -550px;
         bottom: -100px;
     }
 
@@ -856,7 +856,7 @@
 @media (min-width: 1200px) {
 
     .logo {
-        top: 20px;
+        top: 5px;
     }
 
     .logo svg {
