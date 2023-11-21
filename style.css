@@ -161,11 +161,15 @@
     }
 }
 
+.logoMb {
+    display: none;
+}
+
 .logo {
     position: absolute;
-    z-index: 5;
+    z-index: 6;
     left: 50%;
-    top: 10px;
+    top: -55%;
     transform: translateX(-50%);
     margin-bottom: 40px;
 }
@@ -175,13 +179,18 @@
 }
 
 .logo__text--color {
-    transition: fill 0.5s linear 0.5s;;
-    fill: #fff;
+    /*transition: fill 0.5s linear 0.5s;;*/
+    /*fill: #fff;*/
+}
+
+.logo__casino {
+    fill: #2B2E3F;
 }
 
 .logo__casino--color {
     transition: fill 0.5s linear 0.5s;;
-    fill: #FFDD2D;;
+    fill: #fff;
+    z-index: 2;
 }
 
 .wheel {
@@ -618,6 +627,9 @@
 
 @media (min-width: 991px) {
 
+    .logo {
+        top: -20%;
+    }
 
     .item1 {
         position: absolute;
@@ -659,10 +671,6 @@
 
     .top {
         overflow: unset;
-    }
-
-    .logo {
-        top: 12px;
     }
 
     .logo svg {
@@ -854,10 +862,6 @@
 
 
 @media (min-width: 1200px) {
-
-    .logo {
-        top: 5px;
-    }
 
     .logo svg {
         max-width: unset;
