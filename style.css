@@ -690,7 +690,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 12%;
+        bottom: 16%;
     }
 
     .wheel__center {
@@ -872,7 +872,7 @@
 @media (min-width: 1200px) {
 
     .logo {
-        top: 5%;
+        top: 5vh;
     }
 
     .logo svg {
