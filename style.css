@@ -13,7 +13,7 @@
     font-weight: 800;
     color: #fff;
     background-image: url("./assets/bg.jpg");
-    background-position: calc(50% + 17px) center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: auto;
@@ -118,6 +118,10 @@
 
 .modal__win {
     margin-bottom: 8px;
+    background: linear-gradient(180deg, #FFD23F 17.95%, #C69800 79.49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
 }
 
 .modal__link {
@@ -441,7 +445,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    animation: levitate4 10s infinite ease-in-out;
+    animation: levitate4 8s infinite ease-in-out;
     z-index: -1;
 }
 
@@ -585,12 +589,19 @@
     align-items: center;
 }
 
+.footer12 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .footer__list {
     display: flex;
 }
 
 .footer__list + .footer__list {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 
 .footer__item {
@@ -617,7 +628,12 @@
 }
 
 @media (min-width: 991px) {
-
+    .footer12 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
 
     .item1 {
         position: absolute;
@@ -674,7 +690,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 18%;
+        bottom: 12%;
     }
 
     .wheel__center {
@@ -819,7 +835,7 @@
     }
 
     .modal {
-        padding-top: 15vh;
+        padding-top: 18vh;
     }
 
     .modal__content {
@@ -856,10 +872,12 @@
 @media (min-width: 1200px) {
 
     .logo {
-        top: 5px;
+        top: 5%;
     }
 
     .logo svg {
         max-width: unset;
+        width: 205px;
+        height: 80px;
     }
 }
