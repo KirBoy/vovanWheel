@@ -730,7 +730,7 @@
     }
 
     .dog1 {
-        max-width: 320px;
+        max-width: 290px;
         max-height: 464px;
         width: 82vw;
         height: 83vh;
@@ -841,7 +841,7 @@
 
     .modal__content {
         padding-top: 50px;
-        font-size: 36px;
+        font-size: 32px;
         max-width: unset;
         width: 700px;
         height: 393px;
@@ -854,18 +854,18 @@
 
     .modal__gratz {
         padding: 10px;
-        font-size: 48px;
-        margin-bottom: 20px;
+        font-size: 60px;
+        margin-bottom: 10px;
     }
 
     .modal__win {
         font-size: 32px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .modal__link {
-        width: 440px;
-        padding: 20px;
+        width: 340px;
+        padding: 26px;
     }
 }
 
@@ -873,7 +873,7 @@
 @media (min-width: 1200px) {
 
     .logo {
-        top: 5vh;
+        top: 4.5vh;
     }
 
     .logo svg {
